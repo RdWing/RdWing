@@ -1,71 +1,52 @@
-# J. Chang
-
-**Software developer · IT consultant · photographer · radio enthusiast**
-
-I build software around radio systems, cloud infrastructure, and digital imaging. A lot of it starts with hardware I use, a workflow that could be better, or a proprietary format that looked interesting enough to reverse engineer.
-
-Professionally, I run a small IT consulting business working with Microsoft 365, Azure, AWS, networking, identity, security, and automation.
-
-## Featured work
-
-### 📻 DVMConsole NEO
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RdWing/dvmconsole/neo/repo/neo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RdWing/dvmconsole/neo/repo/neo-light.png">
-  <img alt="DVMConsole NEO showing a public demo configuration with independent channel controls and the Activity sidebar" src="https://raw.githubusercontent.com/RdWing/dvmconsole/neo/repo/neo-dark.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="J. Chang. IT consultant by trade. Photographer and radio hobbyist the rest of the time." src="assets/hero-dark.svg" width="100%">
 </picture>
 
-A cross-platform operator console for **P25, DMR, and NXDN** radio systems, built with **.NET and Avalonia**. It brings independent channels, talkgroup patching, secure voice, recording, and graphical configuration into one workspace.
+<a href="https://github.com/RdWing/z63patch">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/z63patch-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/z63patch-light.svg">
+    <img alt="z63patch: pro video and photo features for the Nikon Z6III, including 6K 3:2 open gate, RAW pre-capture, ProRes 422 grades and Log options. Emulator-tested, not yet on real hardware." src="assets/z63patch-dark.svg" width="100%">
+  </picture>
+</a>
 
-NEO is a ground-up rewrite of the original application, now supporting **macOS, Windows, and Linux**, with **iPhone and iPad versions in public beta**.
+<a href="https://github.com/RdWing/dvmconsole"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/neo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/neo-light.svg"><img alt="DVMConsole NEO: P25, DMR and NXDN operator console for macOS, Windows, Linux and iOS" src="assets/neo-dark.svg" width="49%"></picture></a>
+<a href="https://www.nikonfpc.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/np3-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/np3-light.svg"><img alt="NP3 Studio: decodes Nikon Flexible Color Picture Controls in the browser" src="assets/np3-dark.svg" width="49%"></picture></a>
+<a href="https://github.com/WonderLantern/z8-qemu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/z8qemu-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/z8qemu-light.svg"><img alt="Z8 QEMU: runs the Nikon Z8's original firmware and writes 14-bit lossless NEFs" src="assets/z8qemu-dark.svg" width="49%"></picture></a>
+<a href="https://rdwing.github.io/nikon-lut-to-np3/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lut-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/lut-light.svg"><img alt="LUT to Picture Control: fits Flexible Color settings to an N-Log 3D LUT" src="assets/lut-dark.svg" width="49%"></picture></a>
 
-[**Explore the project →**](https://github.com/RdWing/dvmconsole) · [Downloads](https://github.com/RdWing/dvmconsole/releases) · [iOS/iPadOS beta](https://testflight.apple.com/join/KuYtQqja)
+### Now
 
-### 📷 NP3 Studio
+Getting z63patch off the emulator and onto a real Z6III. I can't risk bricking my only camera, so I'm [raising money for a dedicated test body](https://ko-fi.com/rdwing). Hardware results, failures included, will go in the repo.
 
-[![NP3 Studio analyzing the Nlog v8 stills preset, showing tone, color blending, and color grading controls](assets/np3-studio.png?v=2)](https://www.nikonfpc.com/)
+### Day job
 
-A browser-based tool for exploring Nikon's **NP3 Flexible Color Picture Controls**. I reverse-engineered the format and built an analyzer that decodes all 44 parameters, visualizes tone curves and LUTs, and exposes the color-blending and grading data inside each file.
-
-Built with **Rust and WebAssembly**. Files are processed locally in your browser.
-
-[**Try NP3 Studio →**](https://www.nikonfpc.com/)
-
-### 🔬 Nikon firmware research & WonderLantern
-
-I've also been spending quite a bit of time reverse-engineering Nikon Z camera firmware, particularly the EXPEED 7 generation. That work has taken me into embedded systems, firmware architecture, camera processing pipelines, and hardware emulation.
-
-I'm part of the **[WonderLantern](https://github.com/WonderLantern)** team and created **[Z8 QEMU](https://github.com/WonderLantern/z8-qemu)**, a Nikon Z8 firmware emulator built on WonderLantern's earlier Z9 emulation work. It runs the camera's original firmware, including menu navigation, display rendering, simulated controls, and experimental image capture using modeled hardware and synthetic sensor data.
-
-I've also been working on Z6III firmware emulation, EXPEED 7 internals, and tools for understanding and experimenting with Nikon's imaging pipeline.
-
-One related public project is **[LUT to Picture Control](https://rdwing.github.io/nikon-lut-to-np3/)**, an experimental tool that fits Nikon Flexible Color settings to approximate a compatible 3D LUT.
-
-## Beyond those projects
-
-My radio work spans digital voice networks, HF, SDR, audio, and hardware integration. [DVMHost](https://github.com/RdWing/dvmhost) and [FNECore](https://github.com/RdWing/fnecore) are part of the wider ecosystem I work with.
-
-I'm also a photographer, interested in both making photographs and understanding how the camera arrives at the finished image. Increasingly, that curiosity has led me from picture controls and color science all the way down to firmware, processors, and the hardware underneath.
+I run a small IT consulting business working with Microsoft 365, Azure, AWS, networking, identity, security, and automation. Everything above is what happens after hours.
 
 <details>
-<summary>More radio projects and forks</summary>
+<summary><b>Radio projects and forks</b></summary>
+<br>
 
-- [KFDtool](https://github.com/RdWing/KFDtool) — P25 keyloading software and hardware tooling
+- [DVMHost](https://github.com/RdWing/dvmhost) and [FNECore](https://github.com/RdWing/fnecore) — the digital voice network stack NEO connects to
+- [KFDtool](https://github.com/RdWing/KFDtool) — P25 keyloading software and hardware
 - [NetworkIcom](https://github.com/RdWing/NetworkIcom) — Icom IC-7610 Ethernet control in Swift and SwiftUI
 - [P25Clients](https://github.com/RdWing/P25Clients) and [NXDNClients](https://github.com/RdWing/NXDNClients) — gateways and parrots
-- [MMDVM_CM](https://github.com/RdWing/MMDVM_CM) — cross-mode conversion tools
+- [MMDVM_CM](https://github.com/RdWing/MMDVM_CM) — cross-mode conversion
 - [anytone-flash-tools](https://github.com/RdWing/anytone-flash-tools) — Anytone radio flash tools
-- [OpenHPSDR-wdsp](https://github.com/RdWing/OpenHPSDR-wdsp) — SDR and digital signal processing
-
-Some are active work; others are older experiments or forks I used to explore a radio, protocol, or piece of hardware.
+- [OpenHPSDR-wdsp](https://github.com/RdWing/OpenHPSDR-wdsp) — SDR signal processing
 
 </details>
 
-**Tools I work with:** C# · .NET · Avalonia · C/C++ · Rust · WebAssembly · Python · QEMU · Swift · JavaScript
+<details>
+<summary><b>More camera work</b></summary>
+<br>
 
----
+- [Fenestra for the Z6III](https://github.com/RdWing/Fenestra/tree/z63-c201-port) — a port of the Fenestra module runtime to Z6III C2.01, running in the emulator
 
-Mostly, I like figuring out how complicated things work and making them easier to use.
+</details>
 
-*And occasionally fixing things that probably would have been easier not to take apart in the first place.*
+<sub>C# · .NET · Avalonia · C/C++ · Rust · WebAssembly · Python · QEMU · Swift</sub>
+
+<sub><i>Mostly I like figuring out how complicated things work and making them easier to use. And occasionally fixing things that probably would have been easier not to take apart in the first place.</i></sub>
